@@ -4,6 +4,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import App from './App.vue'
 
+import { registerSW } from 'virtual:pwa-register'
+registerSW()    
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
