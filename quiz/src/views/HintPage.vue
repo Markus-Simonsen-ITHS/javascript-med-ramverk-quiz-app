@@ -1,5 +1,6 @@
 <template>
   <h1 class="m-5">Here's the correct answer: {{ correctAnswer }}</h1>
+  <router-link class="m-5" to="/quiz">Go back</router-link>
 </template>
 
 <script>

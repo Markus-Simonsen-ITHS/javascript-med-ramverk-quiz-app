@@ -31,6 +31,7 @@
     font-size: 1.5em;
     cursor: pointer;
     transition: all 0.25s;
+    user-select: none;
   }
   p:hover {
     color: rgb(0, 119, 255);
